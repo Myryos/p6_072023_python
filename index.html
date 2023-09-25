@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang=fr-FR>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/e2ace4f0f8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/normalize.css">
+
+
+    <link rel="stylesheet" href="css/index.css">
+    <title>JustStreamIt</title>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1>JustStreamIt</h1>
+        </div>
+        <nav class="nav">
+            <a>Accueil</a>
+            <a>Categories</a>
+        </nav>
+    </header>
+    <main>
+        <div class="film_modal">
+            <div class="modal_content">
+                <div class="modal_header">
+                    <h3 class="title_film"></h3>
+                    <i class="fa-solid fa-xmark close_btn"></i>
+                </div>
+                <div class="modal_body">
+                    <div class="modal_body_img"></div>
+                    <div class="modal_body_content"></div>
+                </div>
+            </div>
+        </div>
+
+        <section class="best_film">
+            <div class="best_film_cover">
+                <button class="btn_play">Play</button>
+            </div>
+            <div class="best_film_details">
+                <h3 class="best_film_title"></h3>
+                <p class="resume"></p>
+            </div>
+        </section>
+        <section class="best_films">
+            <h2>Films les mieux notés</h2>
+            <div class="wrapper">
+                <div class="section_content">
+                    <button class="arrow arrow_left"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+                    <div class="slide_show">
+                    </div>
+                    <button class="arrow arrow_right"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="animation">
+            <h2>Animation</h2>
+            <div class="wrapper">
+                <div class="section_content">
+                    <button class="arrow arrow_left"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+                    <div class="slide_show">
+                    </div>
+                    <button class="arrow arrow_right"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="horror">
+            <h2>Horror</h2>
+            <div class="wrapper">
+                <div class="section_content">
+                    <button class="arrow arrow_left"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+                    <div class="slide_show">
+                    </div>
+                    <button class="arrow arrow_right"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+        <section class="war">
+            <h2>War</h2>
+            <div class="wrapper">
+                <div class="section_content">
+                    <button class="arrow arrow_left"><i class="fa-sharp fa-solid fa-arrow-left"></i></button>
+                    <div class="slide_show">
+                    </div>
+                    <button class="arrow arrow_right"><i class="fa-sharp fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/callOCMovie.js"></script>
+    <script src="./js/renderMovie.js"></script>
+    <script src="./js/slideShow.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

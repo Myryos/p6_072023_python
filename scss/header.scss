@@ -1,0 +1,24 @@
+@import "./variable.scss";
+
+header,
+nav {
+    display: flex;
+
+    flex-direction: row;
+}
+
+header {
+    background-color: $bg_header_color;
+    color: white;
+    justify-content: space-between;
+}
+
+header * {
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+
+nav {
+    align-self: center;
+}

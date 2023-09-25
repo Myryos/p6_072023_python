@@ -1,0 +1,20 @@
+header,
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+header {
+  background-color: #62757f;
+  color: white;
+  justify-content: space-between;
+}
+
+header * {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+nav {
+  align-self: center;
+}/*# sourceMappingURL=header.css.map */
